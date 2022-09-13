@@ -1,5 +1,16 @@
 body {
   text-align: center;
+  background-color: #FEFBF6;
+}
+
+
+/* Navbar Style */
+#heading-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-color: #0F3460;
 }
 
 @keyframes move_wave {
@@ -18,7 +29,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 70px;
+    bottom: 90px;
     top: 50px;
     margin: auto;
 }
@@ -90,7 +101,7 @@ body {
   left : 0 ;
   width : 100% ;
   height : 2px ;
-  background-color : #065454 ;
+  background-color : #CDF0EA ;
   transform : scalex(0) ;
   transition : transform .25s ;
 }
@@ -115,12 +126,11 @@ body {
 
 header.title-heading {
   width: 100%;
-  height: 70vh;
+  height: 77vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  margin-top: -5vw;
+  margin-top: -1vw;
 }
 
 .title-h1{
@@ -234,7 +244,7 @@ set the transition property and now, when hovering, all properties will change s
 .card {
     display: flex;
     flex-direction: column;
-
+    animation: slideUp 1.5s ease-in-out;
     width: 300px;
     height: 420px;
     margin: 20px;
